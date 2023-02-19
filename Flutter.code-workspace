@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../Flutter"
+		},
+		{
+			"path": "../Golang"
+		},
+		{
+			"path": "../Web-Project"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Python"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.debug.settings.onBuildFailureProceed": true,
+		"liveServer.settings.multiRootWorkspaceName": "Web-Project"
+	}
+}
