@@ -9,5 +9,6 @@ public class ex15 {
         float y = z * (5) / (9);
 
         System.out.println(x + " in fahrenhiet is " + y + " celsius");
+        sc.close();
     }
 }

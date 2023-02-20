@@ -20,6 +20,7 @@ public class exq0301 {
         System.out.println("The negative number is : " + neg);
         System.out.println("Total is : " + total);
         System.out.println("The average is : " + average);
+        sc.close();
     }
 
     public static int pos(int[] a) {

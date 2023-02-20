@@ -10,5 +10,6 @@ public class ex13 {
         int sec = (x % 3600) % 60;
 
         System.out.println(hour + " : " + minute + " : " + sec);
+        sc.close();
     }
 }

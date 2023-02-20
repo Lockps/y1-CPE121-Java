@@ -55,5 +55,6 @@ public class ex25 {
                     break;
             }
         }
+        sc.close();
     }
 }

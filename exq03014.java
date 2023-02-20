@@ -13,5 +13,6 @@ public class exq03014 {
             out += s / (s + 2) + Math.pow(i, 2);
         }
         System.out.printf("The result of summation is %.1f", out);
+        sc.close();
     }
 }

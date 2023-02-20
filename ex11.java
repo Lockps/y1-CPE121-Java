@@ -10,5 +10,7 @@ public class ex11 {
         int inp = sc.nextInt();
 
         System.out.print("The value in centimeter is : " + inp / 0.3937);
+
+        sc.close();
     }
 }

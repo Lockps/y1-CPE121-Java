@@ -12,5 +12,6 @@ public class ex24 {
         } else {
             System.err.println("your guess is incorrect");
         }
+        sc.close();
     }
 }

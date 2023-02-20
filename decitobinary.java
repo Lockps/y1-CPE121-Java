@@ -6,6 +6,7 @@ public class decitobinary {
         long deci = sc.nextLong();
         long binary = calc(deci);
         System.out.println(binary);
+        sc.close();
     }
 
     public static long calc(long y) {

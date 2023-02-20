@@ -6,5 +6,6 @@ public class qb1 {
         int x = sc.nextInt();
         String y = Integer.toBinaryString(x);
         System.out.println(y);
+        sc.close();
     }
 }

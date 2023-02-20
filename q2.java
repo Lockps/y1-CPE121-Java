@@ -27,5 +27,6 @@ public class q2 {
         System.out.println("Total of our number is " + both);
         System.out.println("Total is " + s);
 
+        sc.close();
     }
 }

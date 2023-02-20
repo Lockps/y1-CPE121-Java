@@ -6,7 +6,7 @@ public class quiz1 {
     JOptionPane box = new JOptionPane(System.in);
     float inp = Float.parseFloat(box.showInputDialog("Enter the slide : "));
     float out = 1.5f * 1.732f * inp * inp;
-    box.showMessageDialog(out);
-    box.showMessageDialog(box);
+    box.showMessageDialog(box, out);
+    box.showMessageDialog(box, box);
   }
 }

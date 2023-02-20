@@ -26,6 +26,6 @@ public class qb0302 {
         System.out.println("Summary is " + s);
         System.out.println("divisible by 4 and 7 is " + fs);
         System.out.println("divisible by 7 and 9 is " + sn);
-
+        sc.close();
     }
 }

@@ -11,5 +11,6 @@ public class ex14 {
         double BMI = x / z;
 
         System.out.println("BMI is " + BMI);
+        sc.close();
     }
 }

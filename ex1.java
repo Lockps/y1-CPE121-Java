@@ -8,6 +8,7 @@ public class ex1 {
         int b11 = x / 2 % 10;
         int z = x / 20 % 10;
         int a = x / 200 % 10;
-        System.out.print("Binary value in each digit" + x * y * z * a);
+        System.out.print("Binary value in each digit" + x * b11 * z * a);
+        sn.close();
     }
 }

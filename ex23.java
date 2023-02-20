@@ -18,5 +18,6 @@ public class ex23 {
         if (num % 3 != 0 && num % 11 != 0) {
             System.out.println(num + " is not divisible by both 3 and 11.");
         }
+        sc.close();
     }
 }

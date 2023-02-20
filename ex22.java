@@ -11,6 +11,7 @@ public class ex22 {
         } else {
             System.out.println("The ISBN-10 number is " + String.format("%09d", a) + "x");
         }
+        sc.close();
     }
 
     public static int calc(int a) {

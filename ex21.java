@@ -14,9 +14,10 @@ public class ex21 {
         double x = a * d - b * c;
         if (x == 0) {
             System.out.println("no solution");
-            
-        } e {
+
+        } else {
             System.out.print("x is " + (e * d - b * f) / x + " y is " + (a * f - e * c) / x);
         }
+        sc.close();
     }
 }

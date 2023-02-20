@@ -54,5 +54,6 @@ public class ex26 {
                 System.out.println("sheep");
         }
 
+        sc.close();
     }
 }

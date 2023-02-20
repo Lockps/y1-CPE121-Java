@@ -16,5 +16,6 @@ public class qb0301 {
             }
         }
         System.out.println("Last value is " + o);
+        sc.close();
     }
 }
