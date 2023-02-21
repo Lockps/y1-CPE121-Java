@@ -16,7 +16,6 @@ public class ex40105 {
             para /= 10;
             s++;
         }
-        System.out.println(s);
         for (int i = s - 1; i >= 0; i--) {
             out += (input % 10) * Math.pow(10, i);
             input /= 10;
