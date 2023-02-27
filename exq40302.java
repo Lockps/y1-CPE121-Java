@@ -40,7 +40,6 @@ public class exq40302 {
                     double op = calSurface(height, rad);
                     System.out.println(op);
                     break;
-            }
         }
         sc.close();
     }
@@ -56,4 +55,5 @@ public class exq40302 {
     public static double calSurface(int h , int r) {
         return Math.pow((Math.pow(r, 2))*(Math.pow(h, 2)),0.5)}
 
+}
 }
