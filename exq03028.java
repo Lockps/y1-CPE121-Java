@@ -17,5 +17,6 @@ public class exq03028 {
             System.out.printf("%d ", a);
         }
         System.out.printf("\n\ncount is %d\n", sum);
+
     }
 }
