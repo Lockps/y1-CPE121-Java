@@ -18,7 +18,7 @@ public class qb602 {
         }
         System.out.println("average is " + avr);
         System.out.println("number less than average is " + less);
-
+        sc.close();
     }
 
     public static double average(int[] a) {

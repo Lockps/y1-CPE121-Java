@@ -19,5 +19,6 @@ public class qb601 {
             System.out.println();
         }
         System.out.println("number frequency is " + sum);
+        sc.close();
     }
 }
