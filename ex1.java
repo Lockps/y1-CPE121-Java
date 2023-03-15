@@ -3,6 +3,7 @@ import java.util.*;
 class ex1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number 0000-7777 :");
         int inp = sc.nextInt();
         if (inp % 10 > 7 || inp / 10 % 10 > 7 || inp / 100 % 10 > 7 || inp / 1000 % 10 > 7)
             System.out.println("error number between 0-1 only!!!");

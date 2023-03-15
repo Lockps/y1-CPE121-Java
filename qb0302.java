@@ -8,7 +8,6 @@ public class qb0302 {
         System.out.print("Enter number of columns : ");
         int n = sc.nextInt();
         int s = 0, fs = 0, sn = 0, d = 0, u = 0;
-        int[] num1, num2;
         for (int i = 0; i <= m; i++) {
             for (int j = 0; j <= n; j++) {
                 int a = (int) (Math.random() * 4000 - 500);
