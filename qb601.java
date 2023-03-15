@@ -14,6 +14,7 @@ public class qb601 {
                 if (x[i][j] == input) {
                     sum++;
                 }
+
             }
             System.out.println();
             System.out.println();
