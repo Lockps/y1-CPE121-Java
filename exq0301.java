@@ -6,8 +6,8 @@ public class exq0301 {
         System.out.print("Enter the lenght : ");
         int Lenght = sc.nextInt();
         int[] a = new int[Lenght + 1];
+        System.out.print("Enter the value : ");
         for (int i = 1; i < Lenght + 1; i++) {
-            System.out.print("Enter the " + i + " value : ");
             a[i] = sc.nextInt();
         }
 

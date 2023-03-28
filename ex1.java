@@ -13,11 +13,11 @@ class ex1 {
             int c = inp / 100 % 10;
             int d = inp / 1000 % 10;
 
-            System.out.printf("%s %s %s %s ", bi(d), bi(c), bi(b), bi(a));
+            System.out.printf("%03d %03d %03d %03d ", bi(d), bi(c), bi(b), bi(a));
         }
     }
 
-    public static String bi(int a) {
+    public static int bi(int a) {
         int op = 0;
         int i = 0;
         while (a != 0) {
@@ -25,6 +25,6 @@ class ex1 {
             a /= 2;
             i++;
         }
-        return String.format("%03d", op);
+        return op;
     }
 }
