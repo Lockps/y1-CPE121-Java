@@ -8,5 +8,9 @@ public class ex16 {
         double v = r * r * Math.PI;
         box.showMessageDialog(box, "area is " + v);
         box.showMessageDialog(box, "volume is " + v * l);
+    int[] a;
+    for ( : collection) {
+        
+    }
     }
 }
