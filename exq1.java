@@ -14,5 +14,6 @@ public class exq1 {
         float t2 = Float.parseFloat(a);
         float r = wei * 4184 * (t2 - t1);
         box.showMessageDialog(box, "The energy needed is " + r);
+        sc.close();
     }
 }

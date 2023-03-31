@@ -11,7 +11,7 @@ class test {
       System.out.print("Enter value of y : ");
       int y = sc.nextInt();
 
-      double[] arr = new double[23];
+      double[] arr = new double[24];
 
       int samp = 20;
 

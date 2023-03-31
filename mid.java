@@ -18,5 +18,6 @@ public class mid {
             System.out.println();
         }
         System.out.println(sum);
+        sc.close();
     }
 }
